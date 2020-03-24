@@ -1,0 +1,12 @@
+# Ten program oblicza liczbę sekund w danej liczbie godzin.
+# ten program został napisany dwa dni temu
+a = float(input("Godziny: "))
+sekundy = 3600 # liczba sekund w 1 godzinie
+sekundy_w_godzinach = a*3600
+if a == 1:
+    print("1 godzina wynosi 3600 sekund")
+else:
+    print(a," godzin wynosi ",(sekundy_w_godzinach),"sekund.")
+# print("Sekund w godzinach: ", a * sekundy)  # wyswietla ilość sekund w zadanej liczbie godzin
+print("Do widzenia :)")
+# to jest koniec programu, który oblicza liczbę sekund w 3 godzinach
